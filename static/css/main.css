@@ -1,1 +1,46 @@
 /* you can add any styles you think could improve user's experience */
+.product{
+  display: inline-block;
+  margin: 3em;
+  text-align: center;
+}
+.imagen{
+  border: 1px solid #000;
+}
+.unit, .price{
+  display: inline-block;
+}
+.boton{
+  display: block;
+  background-color: #694AB2;
+  border: 1px solid #694AB2;
+  border-radius: 1em;
+  padding: 0.6em;
+  color: #FFF;
+  margin-left: 2em;
+}
+.boton:hover{
+  background-color: #B095F1;
+  border: 1px solid #B095F1;
+}
+.botonTotal{
+  display: block;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 0.5em;
+  padding: 0.6em;
+  color: #FFF;
+  margin-left: 2em;
+}
+.zoom{
+  transition: width 2s, height 2s, transform 2s;
+  -moz-transition: width 2s, height 2s, -moz-transform 2s;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+.zoom:hover{
+  transform : scale(1.2);
+  -moz-transform : scale(1.2);
+  -webkit-transform : scale(1.2);
+  -o-transform : scale(1.2);
+}
